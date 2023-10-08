@@ -1,0 +1,64 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+ background-color: #f9ecee;
+  text-align: center;
+  
+}
+ p { /*paragraph style*/
+  font-family: 'sans-serif', Helvetica, Arial;
+}
+/* STYLE TEXT */
+
+h1 {
+  color: #FFD700;
+  text-align: center;
+  text-decoration: overline;
+  font-family: 'sans-serif', Helvetica, Arial;
+}
+
+/* STYLE IMAGES */
+img { /* Images conf*/
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 20%;
+  margin: #c83ca5;
+  margin-bottom: 1cm;
+  margin-top: 2em;
+}
+main{
+  text-align: center;
+  margin-top:0px ;
+  margin-bottom: 0px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.text { /*text configuration*/
+  color: #black;
+}
+#windy { /*img configuration*/
+  border-radius: 50%;
+  
+}
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #ebcbe5;
+  overflow: hidden;
+  padding: 1em;
+}
+li {
+  display: inline;
+}
+li a { /*color for home/porflio*/
+  text-decoration: none;
+  color:white;
+  font-size: 1.3em;
+  padding: 1em;
+}
+li a:hover {
+  background-color: #aeaee0;
+}
